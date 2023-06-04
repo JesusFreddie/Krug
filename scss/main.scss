@@ -1,0 +1,37 @@
+// base
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+
+@import './base/reset';
+@import './base/var';
+@import './base/base';
+
+// block
+
+@import './block/main/btn';
+@import './block/main/header';
+@import './block/main/header__panel';
+@import './block/main/nav';
+@import './block/main/header__content';
+@import './block/main/footer';
+@import './block/main/articles';
+@import './block/main/title';
+@import './block/main/gallery';
+@import './block/main/reviews';
+@import './block/main/connection';
+@import './block/main/tour-search';
+
+// articles
+
+@import './block/articles/articles';
+
+// contacts
+
+@import './block/contacts/contacts';
+
+
+.none {
+	display: none !important;
+}
+

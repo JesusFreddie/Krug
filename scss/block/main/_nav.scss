@@ -1,0 +1,19 @@
+.nav {
+	
+	color: var(--color-text);
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+
+		font-weight: 700;
+		line-height: 70px;
+
+		button {
+			font-weight: 700;
+		}
+	}
+}
+.home-nav {
+	margin-bottom: 227px;
+	color: #fff;
+}
